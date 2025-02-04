@@ -16,7 +16,8 @@ export default async function MyBookingsPage() {
   console.log("bookings", data);
   return (
     <div>
-      <MyBookingsComp data={data}></MyBookingsComp>
+      <MyBookingsComp data={data}>
+      </MyBookingsComp>
     </div>
   );
 }
