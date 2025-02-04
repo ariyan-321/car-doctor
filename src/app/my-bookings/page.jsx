@@ -13,7 +13,6 @@ const fetchBookings = async () => {
 export default async function MyBookingsPage() {
   const data = await fetchBookings();
 
-  console.log("bookings", data);
   return (
     <div>
       <MyBookingsComp data={data}>
