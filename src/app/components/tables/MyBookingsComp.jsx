@@ -22,7 +22,7 @@ export default function MyBookingsComp({ data }) {
             method: "DELETE",
           });
           
-          Swal.fire("Deleted!", "Your booking has been deleted.", "success");
+          Swal.fire("Deleted!!!", "Your booking has been deleted.", "success");
           router.refresh()
         } catch (error) {
           console.error("Error deleting:", error);
